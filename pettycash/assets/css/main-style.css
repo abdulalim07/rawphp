@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.main-body{
+    margin: auto;
+    width: 1080px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(80, 64, 128);
+    font-size: medium;
+}
+
+.top-body{    
+    padding-top: 10px;
+    border-bottom: 2px solid blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-logo{
+    font-size: 36px;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.right-top .nav-menu ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.right-top .nav-menu ul li a:hover{
+    color: #fff;
+}
+
+.center-body{
+    display: flex;
+    padding: 10px;
+}
+
+.left-center{
+    width: 150px;
+    padding-right: 10px;
+}
+
+.bottom-body{
+    padding: 10px;
+    border-top: 1px solid blueviolet;
+}
+
+.leftSideMenu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* FONT DESIGN START */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+h1{
+    font-size: 34px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h6{
+    font-size: 16px;
+}
+/* FONT DESIGN END */
+
+/* FORM DESIGN START */
+
+.voucherFormRow{
+    display: flex;
+}
+
+.voucherFormLabel{
+    margin-top: 10px;
+    width: 125px;
+}
+
+.voucherFormRow .voucherInput{
+    width: 200px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(200, 180, 240);
+}
+.transDateInput{
+    width: 100px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(200, 180, 240);
+}
+
+.accountName{
+    width: 220px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(200, 180, 240);
+}
+
+.accountNameSel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.voucherName{
+    width: auto;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(200, 180, 240);
+}
+.voucherFormButtonRow{
+    text-align: right;
+}
+
+button{
+    width: 150px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: blueviolet;
+    background-color: rgb(200, 180, 240);
+}
+
+button:hover{
+    color: #fff;
+    background-color: blueviolet;
+}
+/* FORM DESIGN END */
+/* USER FORM DESIGN START */
+
+.user_form{
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: blueviolet;
+    background-color: rgb(200, 180, 240);
+}
+
+.select_default{
+    width: auto;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(200, 180, 240);
+} 
+
+input.bigsize{
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(200, 180, 240);
+}
+/* USER FORM DESIGN END */
+
+/* TABLE DESIGN START */
+
+.report-table{
+    width: 850px;
+    border-collapse: collapse;
+    background-color: rgb(220, 200, 240);
+}
+
+.report-table th{    
+    background-color: whitesmoke;
+}
+
+.transDetailText{
+    width: 150px;
+    font-size: 12px;
+}
+
+.report-table th, td{
+    border: 1px solid blueviolet;
+    padding: 5px 5px;
+    font-size: 12px;
+    font-weight: 500;
+    vertical-align: text-top;
+}
+
+.report-table td{
+    width: auto;
+    padding: 5px 5px;
+}
+
+.report-table tr:nth-child(even){background-color: rgb(200, 180, 240);}
+
+.report-table tr:hover {background-color: rgb(80, 64, 128);
+}
+
+.finNum{
+    text-align: right;
+    width: 60px;
+}
+
+/* TABLE DESIGN END */
