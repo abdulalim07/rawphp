@@ -1,0 +1,22 @@
+{
+  "name": "abdulalim07/mango",
+  "version": "1.0.0",
+  "description": "World's simplest PHP MVC Framework 2024",
+  "type": "framework",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abdul Alim",
+      "email": "abdulalimpvt@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  }
+}
