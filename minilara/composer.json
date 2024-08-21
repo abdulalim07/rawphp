@@ -1,0 +1,22 @@
+{
+  "name": "abdulalim07/minilara",
+  "description": "Mini PHP MVC Framework",
+  "autoload": {
+    "psr-4": {
+      "Abdulalim07\\Minilara\\": "src/",
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Abdul Alim",
+      "email": "abdulalimpvt@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^7.1"
+  }
+}
